@@ -1,0 +1,6 @@
+{
+    "cSpell.words": ["inger", "Ingred", "ingreds"],
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    }
+}

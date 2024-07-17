@@ -1,0 +1,35 @@
+
+////////////////////////////////////
+/** 
+        (1)
+ * TODO:
+ * - user rate
+ * - (rate - popularity) meal
+ * - Suggestions for user // AI
+ * - Filter with ingredients
+ * - Forgot password service (email) (send Code Email(R) - get code(R) - update new password(R) )
+ */
+
+/////////////////////////////////
+/**
+    (2)
+ * TODO:
+ * - Contact-us
+ * - Admin reply with email
+ * - Trainer
+ * - Trainer rating
+ * - get top 5 trainers based on rate
+ * - Admin Control (like User)
+ */
+
+////////////////////////////////////
+/**
+    (4)
+ * TODO:
+ * - Chat with Socket.IO + Errors + All chats are saved
+ */
+
+/////////////////////////////////   SAID & Hesham   ///////////////////////
+/**
+ *  TODO: Test all routes and test AI
+ */

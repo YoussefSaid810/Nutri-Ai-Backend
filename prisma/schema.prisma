@@ -1,0 +1,183 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Verification_Emails {
+  id        String   @id @default(cuid())
+  sent_at   DateTime @default(now()) @db.Timestamptz(0)
+  code      String   @default("")
+  count     Int      @default(0)
+  user      User     @relation(fields: [userID], references: [id], onDelete: Cascade)
+  userID    String
+  createdAt DateTime @default(now()) @db.Timestamptz(0)
+  updatedAt DateTime @updatedAt @db.Timestamptz(0)
+}
+
+model User {
+  id                String                @id @default(cuid())
+  name              String
+  email             String                @unique
+  password          String
+  passwordChangedAt DateTime              @default(now()) @db.Timestamptz(0)
+  role              Role                  @default(USER)
+  activated         Boolean               @default(false)
+  blocked           Boolean               @default(false)
+  verify_Email      Verification_Emails[]
+  preferences       User_Preferences[]
+  createdAt         DateTime              @default(now()) @db.Timestamptz(0)
+  updatedAt         DateTime              @updatedAt @db.Timestamptz(0)
+  image             String                @default("")
+  information       User_Infos[]
+  MealRates         MealRates[]
+  dailyPlans        User_Daily_Plans[]
+}
+
+model User_Infos {
+  id       String   @id @default(cuid())
+  gender   Gender   @default(MALE)
+  height   Float    @default(170)
+  weight   Float    @default(70)
+  age      Float    @default(25)
+  activity Activity @default(SEDENTARY)
+  goal     GOAL     @default(MAINTAIN)
+  user     User     @relation(fields: [userID], references: [id], onDelete: Cascade)
+  userID   String
+}
+
+model MealRates {
+  User        User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId      String
+  Meal        Meal   @relation(fields: [mealId], references: [id], onDelete: Cascade)
+  mealId      String
+  rate        Float  @default(2.5)
+  rateMessage String @default("")
+
+  @@id([userId, mealId])
+}
+
+model Meal {
+  id             String             @id @default(cuid())
+  hidden         Boolean            @default(false)
+  name           String
+  image          String             @default("")
+  measure        String             @default("gram")
+  quantity       Float              @default(0)
+  dietType       DietType[]
+  dishType       DishType[]
+  calories       Float              @default(0)
+  fats           Float              @default(0)
+  percentFat     Float              @default(0)
+  carbs          Float              @default(0)
+  percentCarbs   Float              @default(0)
+  protein        Float              @default(0)
+  percentProtein Float              @default(0)
+  cuisines       String             @default("")
+  sourceURL      String             @default("")
+  ingredients    MealIngredients[]
+  users_pref     User_Preferences[]
+  MealRates      MealRates[]
+  popularity     Float              @default(50)
+}
+
+model DietType {
+  id     Int    @id @default(autoincrement())
+  type   Diet
+  meal   Meal   @relation(fields: [mealID], references: [id], onDelete: Cascade)
+  mealID String
+
+  @@unique([type, mealID])
+}
+
+model DishType {
+  id     Int    @id @default(autoincrement())
+  type   Dish
+  meal   Meal   @relation(fields: [mealID], references: [id], onDelete: Cascade)
+  mealID String
+
+  @@unique([type, mealID])
+}
+
+model User_Daily_Plans {
+  user      User     @relation(fields: [userID], references: [id], onDelete: Cascade)
+  userID    String
+  plan      String
+  createdAt DateTime @default(now()) @db.Timestamptz(0)
+
+  @@id([userID, plan])
+}
+
+model User_Preferences {
+  user   User   @relation(fields: [userID], references: [id], onDelete: Cascade)
+  meal   Meal   @relation(fields: [mealID], references: [id], onDelete: Cascade)
+  userID String
+  mealID String
+
+  @@id([userID, mealID])
+}
+
+model MealIngredients {
+  mealID     String
+  ingerID    String
+  meal       Meal        @relation(fields: [mealID], references: [id], onDelete: Cascade)
+  ingredient Ingredients @relation(fields: [ingerID], references: [id], onDelete: Cascade)
+
+  @@id([mealID, ingerID])
+}
+
+model Ingredients {
+  id     String            @id @default(cuid())
+  name   String            @unique
+  usedIN MealIngredients[]
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+enum GOAL {
+  MUSCLEGAIN
+  WEIGHTLOSS
+  MAINTAIN
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Activity {
+  SEDENTARY
+  LIGHT
+  MODERATE
+  HEAVY
+  ATHLETE
+}
+
+enum Diet {
+  VEGETARIAN
+  VEGAN
+  GLUTENFREE
+  DAIRYFREE
+  LOWFODMAP
+  KETOGENIC
+  WHOLE30
+}
+
+enum Dish {
+  BREAKFAST
+  LUNCH
+  SNACK
+  SIDE_DISH
+  SOUP
+  SAUCE
+}

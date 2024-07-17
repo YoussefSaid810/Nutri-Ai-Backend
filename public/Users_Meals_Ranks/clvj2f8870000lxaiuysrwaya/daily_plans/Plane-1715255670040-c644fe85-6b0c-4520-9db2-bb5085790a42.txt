@@ -1,0 +1,1 @@
+[{"id":"clvrnxze80atp6htf3mf7z3ye","quantity":"251.32128893083456"},{"id":"clvrn0ind05ke6htfx250in0g","quantity":"496.3322576118984"},{"id":"clvrn8z5t06w56htfbwxv5gtx","quantity":"729.4750084762397"},{"id":"clvrnm1ur08x26htfhje5gem4","quantity":"89.50919308957192"}]

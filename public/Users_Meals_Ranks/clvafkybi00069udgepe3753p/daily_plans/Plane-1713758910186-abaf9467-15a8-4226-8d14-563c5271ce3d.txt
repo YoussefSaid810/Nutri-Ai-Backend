@@ -1,0 +1,1 @@
+[{"id":"clva4u93y094u100dfmx29os8","quantity":"178.24085030032873"},{"id":"clva4twpx0233100dulypmbio","quantity":"530.0850061450226"},{"id":"clva4u5wn07fo100dwxdhsn0o","quantity":"595.5089508742715"},{"id":"clva4u28505a2100dynqcf4od","quantity":"124.7489819974282"}]

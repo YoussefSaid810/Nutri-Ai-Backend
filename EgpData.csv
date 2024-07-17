@@ -1,0 +1,71 @@
+ID,Title,WeightPerServing,Diet,Image URL,Dish Types,Ingredients,Calories,Fat (g),Carbs (g),Protein (g)
+1,Ful Medames,150g,"vegan, gluten-free",https://feelgoodfoodie.net/wp-content/uploads/2019/12/Ful-Medames-8.jpg,"breakfast, snack","Fava beans, olive oil, lemon juice, tahini, cumin, chili flakes, chopped parsley",220,10,25,12
+2,Koshari,200g,"vegetarian, vegan, gluten-free",sss,"lunch, dinner","Lentils, rice, macaroni, fried onions, tomato sauce, garlic sauce, cumin",300,12,40,15
+3,Molokhia Stew,250g,"vegan, gluten-free",ss,"lunch, dinner","Jute leaves, chicken broth (vegetarian broth for vegan option), garlic, coriander, lemon juice, olive oil",200,10,20,18
+4,Mahshi (Stuffed Vegetables),1 medium vegetable,"vegetarian, gluten-free (check filling)",amwhatieat.com,"lunch, dinner","Bell peppers, tomatoes, zucchini, eggplant, rice, onions, herbs (vegetarian filling for vegetarian option)",150,5,20,5
+5,Baba Ganoush,100g,"vegan, gluten-free",feelgoodfoodie.net,"appetizer, dip","Roasted eggplant, tahini, olive oil, lemon juice, garlic, salt",170,12,10,5
+6,Egyptian Falafel (Tamiya),2 falafel balls,"vegan, gluten-free",www.allrecipes.com,"snack, appetizer","Fava beans, parsley, garlic, cumin, coriander, chickpea flour (optional)",150,7,20,5
+7,Umm Ali,150g,"vegetarian, dairy-free (check milk option)",www.carolinescooking.com,dessert,"Bread, nuts, raisins, cinnamon, milk (plant-based milk for dairy-free option)",300,15,35,10
+8,Baladi Bread,50g,"vegan, gluten-free",www.breadfast.com,"breakfast, lunch, dinner","Flour, water, yeast, salt",150,2,30,5
+9,Feteer Meshaltet (Layered Bread),100g,vegetarian (check filling),en.wikipedia.org,"breakfast, snack","Filo dough, butter, cheese (vegetarian filling option available)",300,15,35,10
+10,Hawawshi (Baked Meat in Bread),100g,"not vegetarian, gluten-free",themediterraneandish.com,"lunch, dinner","Ground meat, onions, spices, bread dough",350,18,30,20
+11,Kebab,100g,"Not Vegan, Not Vegetarian, Gluten-free (bread optional)",jocooks.com,"Lunch, Dinner","Marinated meat (lamb, chicken, beef) grilled on skewers",250,15,0,20
+12,Roz Bil Shayb (Sweet Rice with Cream),150g,"Vegetarian, Dairy-free (optional)",https://rb.gy/bx6dyf,Dessert,"Rice, milk (can be dairy-free milk), sugar, nuts, raisins, cinnamon",350,7,60,10
+13,Mulukhiya Soup (Vegetarian),200g,"Vegan, Gluten-free",lowcarbafrica.com,"Lunch, Dinner","Chopped jute leaves, vegetable broth, garlic, coriander, chopped vegetables (optional), spices",180,5,20,15
+14,Ta'amiya (Falafel),100g (2 Falafel),"Vegan, Gluten-free",www.196flavors.com,"Snack, Appetizer","Fava beans, chickpeas (some versions), herbs, spices, deep-fried",250,12,25,10
+15,Kushari Es Alexandri (Alexandrian Koshari),250g,"Vegan, Gluten-free",,"Lunch, Dinner","Rice, spaghetti, lentils, fried vermicelli, tomato sauce, chickpeas, spices",400,15,55,18
+16,Malabi (Milk Pudding),200g,"Vegetarian, Dairy-free (optional)",www.thespruceeats.com,Dessert,"Milk (can be dairy-free milk), sugar, cornstarch, rosewater (optional), nuts (optional)",300,5,45,10
+17,Beshtak (Egyptian Lasagna),200g,"Not Vegan, Not Vegetarian",,"Lunch, Dinner","Layers of phyllo dough, ground meat (beef, lamb), tomato sauce, b?chamel sauce, spices",450,25,40,20
+18,Sayadiyah (Fish and Rice),250g,"Not Vegan, Not Gluten-free",,"Lunch, Dinner","Rice, browned onions, spices, fish (typically sea bass)",400,18,45,30
+19,Warak Enab (Stuffed Grape Leaves),100g (5-6 leaves),"Vegetarian (depending on filling), Gluten-free (depending on filling)",feelgoodfoodie.net,"Appetizer, Snack","Grape leaves, rice, lentils, onions, spices (meat filling option available)",200,10,25,10
+20,Mahmoud Pasha (Sweet Pastry),100g,"Not Vegan, Dairy-free (optional)",,Dessert,"Flaky pastry, nuts, honey, sugar, cinnamon",400,15,50,10
+21,Fattah (Egyptian Bread Salad),200g,"Vegan (depending on additions), Vegetarian (depending on additions)",amiraspantry.com,"Lunch, Dinner","Leftover pita bread, rice, fried onions, chickpea sauce, boiled eggs (optional), yogurt sauce (optional), nuts (optional)",450,20,55,20
+22,Lokma (Sweet Dumplings),100g (5-6 dumplings),"Not Vegan, Not Dairy-free",turkishstylecooking.com,Dessert,"Deep-fried dough balls, soaked in syrup, dusted with powdered sugar",300,15,40,5
+23,Qatayef (Stuffed Pancakes),100g (2 pancakes),"Not Vegan (optional fillings), Dairy-free (optional fillings)",silkroadrecipes.com,Dessert,"Thin pancakes, filled with nuts, cream, or ashta (clotted cream)",350,12,45,10
+24,Hamam Mahshi,1 whole bird,"not vegetarian, gluten-free",www.internationalcuisine.com,main course,"Squab, rice, herbs, spices",500,30,40,35
+25,Batata Harra,150g,"vegan, gluten-free",www.paintthekitchenred.com,"side dish, appetizer","Spicy potatoes, onions, garlic, tomatoes, spices",200,10,25,5
+26,Kofta Dany,1 skewer,"not vegetarian, gluten-free",aniagotuje.pl,main course,"Minced lamb, onions, parsley, spices, grilled on skewers",350,20,30,25
+27,Kofta Bel Telo,1 patty,"not vegetarian, gluten-free",,main course,"Minced beef, onions, breadcrumbs, spices, shaped into patties and fried",400,25,25,30
+28,Reyash,100g,"not vegetarian, gluten-free",www.egyptianepicurean.com,dessert,"Flaky pastry, nuts, cream, syrup",450,20,40,15
+29,Kware3,1 medium vegetable,"vegetarian, gluten-free",fr.restaurantguru.com,side dish,"Stuffed courgette (zucchini) with rice, meat (vegetarian option available), spices",250,10,35,10
+30,Lahmet Ras,100g,"not vegetarian, gluten-free",www.elmenus.com,main course,"Lamb's head, offal, spices, cooked in a broth",450,35,10,40
+31,Kebda,100g,"not vegetarian, gluten-free",www.amourdecuisine.fr,"appetizer, side dish","Fried liver, onions, spices",300,20,5,25
+32,Msakaa,100g,"vegetarian, gluten-free",zeinaskitchen.se,main course,"Layers of fried eggplant, lentils, tomato sauce, b?chamel sauce",350,20,30,15
+33,Shish Tawook,1 skewer,"not vegetarian, gluten-free",feelgoodfoodie.net,main course,"Chicken breast, marinated in yogurt, lemon juice, and spices, grilled on skewers",300,15,20,25
+34,Fatta,1 serving,"vegetarian, gluten-free (check bread)",www.seriouseats.com,main course,"Pita bread, rice, chickpeas, yogurt sauce, fried onions, spices",400,20,40,20
+35,Kebab Kofta,1 patty,"not vegetarian, gluten-free",www.allrecipes.com,main course,"Minced beef, onions, breadcrumbs, spices, shaped into patties and fried",400,25,25,30
+36,Grilled Chicken,100g,"not vegetarian, gluten-free",www.onceuponachef.com,main course,"Chicken breast or thigh, grilled",200,10,0,30
+37,Green Salad,100g,"vegan, gluten-free",www.loveandlemons.com,"side dish, appetizer","Lettuce, tomatoes, cucumbers, onions, herbs, dressing",50,2,5,2
+38,Fried Fish,100g,"not vegetarian, gluten-free",wecountcarbs.com,main course,"Fish fillet, coated in batter or breadcrumbs, and fried",300,20,15,25
+39,Kebab,1 skewer,"not vegetarian, gluten-free",paneangeli.it,main course,"Grilled meat (lamb, beef, or chicken) on skewers",300,20,0,30
+40,Macaroni with B?chamel,100g,"vegetarian, gluten-free (check pasta)",www.chocolatesandchai.com,main course,"Macaroni pasta, b?chamel sauce, cheese",350,20,30,15
+41,Baklava,1 piece,"vegetarian, gluten-free (check phyllo dough)",www.allrecipes.com,dessert,"Phyllo dough, nuts, honey, syrup",300,15,30,10
+42,Baladi Bread,50g,"vegan, gluten-free",www.breadfast.com,side dish,"Flour, water, yeast, salt",150,2,30,5
+43,Grilled Bream with Lemon and Herbs,100g,"not vegetarian, gluten-free",cooktogether.com,main course,"Bream fish, lemon juice, herbs, grilled",200,10,0,30
+44,Boiled Egg,1 egg,"vegetarian, gluten-free",www.recipetineats.com,"side dish, snack",Hard-boiled egg,75,5,0,6
+45,Cottage Cheese with Tomatoes and Olive Oil,100g,"vegetarian, gluten-free",www.fooddolls.com,"appetizer, snack","Cottage cheese, tomatoes, olive oil, salt, pepper",150,5,10,15
+46,Halawa,100g,"vegan, gluten-free",Opens in a new window,dessert,"Sesame paste, sugar, lemon juice, rose water",400,20,40,10
+47,Hummus,100g,"vegan, gluten-free",www.gimmesomeoven.com,"dip, appetizer","Chickpeas, tahini, olive oil, lemon juice, garlic",250,10,25,10
+48,Jelly,100g,"vegan, gluten-free",Opens in a new window,dessert,"Fruit juice, gelatin, sugar",330,0,80,2
+47,Kunafa,1 piece,"vegetarian, gluten-free (check phyllo dough)",www.maggwire.com,dessert,"Phyllo dough, nuts, cheese, syrup",300,15,30,10
+49,Coleslaw,100g,"vegan, gluten-free (check dressing)",www.recipetineats.com,salad,"Shredded cabbage, carrots, mayonnaise (vegan option available), dressing",150,10,15,2
+50,Gambary Mashwy,100g,"not vegetarian, gluten-free",,main course,"Grilled shrimp, usually marinated, spices",250,15,0,20
+51,Gambary M2ly,100g,"not vegetarian, gluten-free",,main course,"Fried shrimp, usually coated in batter or breadcrumbs",300,20,20,20
+52,Gambary Butterfly,100g,"not vegetarian, gluten-free",https://peartreekitchen.com/fried-butterfly-shrimp/,main course,"Butterfly-cut shrimp, usually grilled or fried, spices",250,15,0,20
+53,Gambary Tajen,100g,"not vegetarian, gluten-free",,main course,"Shrimp cooked in a tajen (pot) with vegetables, tomato sauce, spices",350,15,30,25
+54,Musakaa bil Lahama (Moussaka with Meat),100g,"not vegetarian, gluten-free (check bread)",,main course,"Eggplant, ground meat (beef or lamb), tomatoes, onions, spices, b?chamel sauce (optional)",300,20,30,20
+56,Ruqaq bil Lahama (Meat Ruqaq),1 serving,"not vegetarian, gluten-free (check bread)",https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzbgDV8IsFx6clLEBDySFQz5jwpFdVxhCkjm8MW3tIxobjSr_Jc_J11WYj4gGR1DWsrUtANlgNtyxLkOjVTQjien03rCDs2fuzukgKn54TZM6qG-aVQceYJtptRfUmEq0h9qqJwdWn-8/s320/final2.jpg,main course,"Ruqaq flatbread, seasoned meat filling, vegetables (optional)",400,25,35,20
+57,Sujuk Eskandarani (Alexandrian Spicy Sausage),100g,"not vegetarian, gluten-free",https://th.bing.com/th/id/R.25a4843de6d3928749f38bc65045f52d?rik=MEkq83uKm8A0EA&pid=ImgRaw&r=0,"appetizer, main course","Spicy sausage, vegetables (optional)",350,30,10,25
+58,Mombar,100g,"not vegetarian, gluten-free",https://radifarms.com/wp-content/uploads/2022/07/DSC_5629-scaled-500x333.jpg,"main course, appetizer","Stuffed intestines (usually lamb or sheep), rice, spices, offal (optional)",400,35,15,20
+61,Deek Romy (Turkey),100g,"not vegetarian, gluten-free",https://th.bing.com/th/id/OIP.1zAoGH87iHgTIVfCJEwA0QHaGP?w=191&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7,main course,Turkey meat,200,10,0,30
+62,Tarb (Grilled Kofta Wrapped in Lamb Fat),1 skewer,"not vegetarian, gluten-free","https://afrifoodnetwork.com/wp-content/uploads/2022/06/tarb.webp",main course,"Minced beef or lamb, onions, spices, lamb fat net",450,35,20,30
+63,Halabesa (Chickpea Soup / Drink),1 cup,"vegan, gluten-free",https://th.bing.com/th/id/OIP.sd71cx44TxvOdoYaq4IG4gHaLG?w=188&h=282&c=7&r=0&o=5&dpr=1.4&pid=1.7,"soup, drink","Chickpeas, water, tahini (optional), lemon juice (optional), spices",200,10,25,10
+64,Kawaree (Cow Feet),100g,"not vegetarian, gluten-free",https://th.bing.com/th/id/OIP.yNF6LXsWM8I6lk_0kuW2UQHaEo?w=297&h=185&c=7&r=0&o=5&dpr=1.4&pid=1.7,"main course, appetizer","Cow feet, stewed with vegetables, spices",350,30,10,25
+65,Feseekh (Fermented and Salted Fish),100g,"not vegetarian, gluten-free",https://img.atlasobscura.com/tCMXG8-gjcp61D6gRaE7auAeESU6lCV1fUPhAzCTbA0/rs:fill:580:580:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3RoaW5n/X2ltYWdlcy84NWYw/NjA4ZC01N2JiLTRl/ZjctODg4OC1mZmZj/MzlmZDA0N2FmZWEw/MGI2NGVmYzgwOGVk/ZTZfc2h1dHRlcnN0/b2NrXzEyOTg3MDIy/NTcuanBn.jpg,appetizer,"Mullet or bilti fish, fermented and salted",200,15,0,30
+67,Akawi (Ox Tail),100g,"not vegetarian, gluten-free",https://th.bing.com/th/id/OIP.YQ0Nhpl0ih5lQ4Pqge4aswHaEK?w=323&h=182&c=7&r=0&o=5&dpr=1.4&pid=1.7,main course,"Ox tail, stewed with vegetables, spices",300,25,10,20
+68,Katayef (Mini Pancakes),1 piece,"vegetarian (check filling), gluten-free (check dough)",https://amiraspantry.com/wp-content/uploads/2019/06/qatayef-1.jpg,dessert,"Phyllo dough or semolina dough, nuts, cream, or cheese filling",200,10,25,5
+69,Egyptian Sobia Drink,1 cup,"vegan, gluten-free",https://th.bing.com/th/id/OIP.eMAAsaD0AeBO6a9rE-_wKwHaEz?w=223&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7,drink,"Breadcrumbs, nuts, coconut, milk, sugar",300,10,45,10
+70,Konafa,1 piece,"vegetarian, gluten-free (check phyllo dough)",https://images.slurrp.com/prod/recipe_images/transcribe/desert/Kanafeh.webp?impolicy=slurrp-20210601&width=1200&height=675,dessert,"Phyllo dough, cheese, nuts, syrup",300,15,30,10
+71,Meshabek (Egyptian Funnel Cake),1 serving,"not vegetarian (check honey), gluten-free (check batter)",https://i0.wp.com/cheznermine.com/wp-content/uploads/2022/11/Meshabek-Blog-Graphic.png?w=800&ssl=1,dessert,"Deep-fried batter, dusted with powdered sugar, honey (optional)",400,20,45,10
+72,Hamam Mahshi (Stuffed Pigeons),1 pigeon,"not vegetarian, gluten-free",https://www.internationalcuisine.com/wp-content/uploads/2015/05/egypt-squabV-684x1024.jpg,main course,"Pigeons, rice or freekeh (toasted cracked green wheat), onions, chopped giblets, spices (cinnamon, cumin, pepper, nuts), broth",400,25,20,30
+73,Salata Baladi (Egyptian Countryside Salad),100g,"vegan, gluten-free",https://i0.wp.com/amwhatieat.com/wp-content/uploads/2019/09/00000IMG_00000_BURST20190917121627960_COVER-e1568772341755.jpg?resize=768%2C1024&ssl=1,salad,"Tomatoes, cucumbers, onions, parsley, lemon juice, olive oil, spices (cumin, sumac, chili powder optional)",150,10,15,2

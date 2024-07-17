@@ -1,0 +1,1 @@
+[{"id":"clvj56ls7008n3i7mv99nkjew","quantity":"167.70089285714286"},{"id":"clvj54wfp00083i7mwmr5wlk7","quantity":"640.3125"},{"id":"clvj56aky007j3i7mmd7hzmgi","quantity":"234.78125"},{"id":"clvj56j1u008d3i7mytnoqj8g","quantity":"0.5217361111111111"}]
